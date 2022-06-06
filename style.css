@@ -1,0 +1,128 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+
+.product{
+    color: #173A56;
+    font-size: 30px;
+    padding-left: 16px;
+    
+    
+}
+
+.nav{
+    all: unset;
+    font-size: 16px;
+    
+    
+}
+
+.nav_link{
+    color: #22343D;
+    text-decoration: none;
+    margin: 0 30px;
+
+}
+
+.nav_link:hover{
+    color:yellow;
+    
+}
+
+
+.logo{
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+
+ul{
+    all: unset;
+}
+
+
+.btn_signin{
+    border: 1px solid #BCD0E5;
+    background-color:#FFFFFF;
+    width: 102px;
+    border-radius: 4px;
+    color:#173A56;
+
+    
+}
+
+.btn_signup{
+    background-color: #02897A;
+    width: 110px;
+    border-radius: 4px;
+    border: none;
+    color:#FFFFFF;
+}
+
+
+
+.tb1{
+    
+    
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-top: 224px;
+    margin-left: 154px;
+
+    
+}
+
+.tb2{
+    
+    font-size: 18px;
+    font-weight: 400px;
+    margin-left: 154px;
+    margin-top: 16px;
+    
+}
+
+.lh{
+    margin-top: 344px;
+    margin-left: 34px;
+    margin-right: 150px;
+}
+
+.start{
+    background-color: #02897A;
+    width: 174px;
+    height: 53px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 44px;
+    margin-left: 154px;
+}
+
+.start span{
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+
+.link_left_col{
+    
+    align-items: center;
+    
+}
+
+.triangle{
+    
+}
