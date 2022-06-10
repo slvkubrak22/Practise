@@ -8,6 +8,8 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    border: solid 3px yellow;
+
 }
 
 .nav-container{
@@ -69,6 +71,11 @@ body{
 
 ul{
     all: unset;
+    
+}
+
+li{
+    list-style-type: none;
 }
 
 .btn{
@@ -122,6 +129,7 @@ ul{
     width: 50%;
     
     
+    
 }
 
 .right_col img{
@@ -168,4 +176,21 @@ ul{
     text-decoration-line: underline;
     display: inline-flex;
 
+}
+
+.slogan{
+    border: solid 1px red;
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343D;
+    
+}
+
+.order{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
 }
