@@ -32,6 +32,11 @@ body{
 
 }
 
+.justify-content_space_between{
+    justify-content: space-between;
+
+}
+
 ul{
     all: unset;
 }
@@ -185,10 +190,11 @@ li{
 }
 
 .benefits{
-    background-image: url(../Practise/Assets/arc.svg);
-    background-repeat: none;
+    background-image: url(../Practise/Assets/arc_down.svg);
+    background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 24px;
+    margin-bottom: 150px;
 
 }
 
@@ -200,7 +206,7 @@ li{
     
 }
 
-h3{
+.order h3{
     font-weight: 600;
     font-size: 24px;
     color:#22343D;
@@ -220,3 +226,149 @@ h3{
 }
 
 
+
+
+.txt_blog{
+    width: 40%;
+    
+}
+
+
+
+
+.manage_image img,
+.officepc_image img,
+.collaborative_image img {
+    width: 100%;
+    margin-bottom: 150px;
+
+}
+
+
+
+
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.img_checkbox{
+    margin-top: 34px;
+}
+
+.yellow img, .red img, .blue img{
+    margin-right: 34px;
+}
+
+
+
+.experts{
+    background-image: url(../Practise/Assets/arc_up.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+.q_e_p{
+    padding-top: 54px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343D;
+    margin-bottom: 16px;
+   
+}
+
+.helping_offer{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343D;
+}
+
+.avatars{
+    
+    display: flex;
+    
+}
+
+.right{
+    
+    width: 50%;
+    
+
+}
+
+.pitch{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    
+}
+
+/*.cloud_left{
+    background-image: url(../Practise/Assets/cloud_left.svg);
+    background-size: 100%;
+    background-repeat: none;
+    display: flex;
+}*/
+
+.pitch p{
+    background-image: url(../Practise/Assets/cloud_left.svg);
+    background-size: 100%;
+    all:unset;
+    padding: 10px;
+    background-color: aqua;
+    margin: 16px;
+}
+
+.design{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.design p{
+    all:unset;
+    padding: 10px;
+    background-color: aqua;
+    margin: 16px;
+}
+
+.prototype{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.prototype p{
+    all:unset;
+    padding: 10px;
+    background-color: aqua;
+    margin: 16px;
+}
+
+.marketing{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marketing p{
+    all:unset;
+    padding: 10px;
+    background-color: aqua;
+    margin: 16px;
+}
+
+.left{
+    
+    width: 50%;
+}
