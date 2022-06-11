@@ -267,6 +267,7 @@ li{
     background-image: url(../Practise/Assets/arc_up.svg);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 154px;
    
 }
 
@@ -290,6 +291,7 @@ li{
 .avatars{
     
     display: flex;
+    margin-bottom: 54px;
     
 }
 
@@ -371,4 +373,8 @@ li{
 .left{
     
     width: 50%;
+}
+
+.strategies h2{
+    margin-bottom: 8px;
 }
