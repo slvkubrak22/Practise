@@ -184,13 +184,41 @@ li{
     font-weight: 700;
     font-size: 34px;
     color: #22343D;
+    margin-bottom: 64px;
     
 }
 
-.order{
+.benefits{
+    border: solid 1px green;
+    background-image: url(Assets/arc.svg);
+    
 
+}
+
+.order{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    margin-bottom: 64px;
+    
 }
+
+h3{
+    font-weight: 600;
+    font-size: 24px;
+    color:#22343D;
+}
+
+.snake, .heart, .arrow, .sand_watches{
+    border: solid 1px palevioletred;
+}
+
+.snake, .heart, .sand_watches{
+    margin-left: 44px;
+}
+
+.middle_btn{
+    text-align: center;
+}
+
+
