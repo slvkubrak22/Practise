@@ -8,7 +8,6 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    border: solid 3px yellow;
 
 }
 
@@ -33,7 +32,9 @@ body{
 
 }
 
-
+ul{
+    all: unset;
+}
 .product{
     color: #173A56;
     font-size: 30px;
@@ -69,10 +70,6 @@ body{
     
 }
 
-ul{
-    all: unset;
-    
-}
 
 li{
     list-style-type: none;
@@ -179,7 +176,6 @@ li{
 }
 
 .slogan{
-    border: solid 1px red;
     text-align: center;
     font-weight: 700;
     font-size: 34px;
@@ -189,9 +185,10 @@ li{
 }
 
 .benefits{
-    border: solid 1px green;
-    background-image: url(Assets/arc.svg);
-    
+    background-image: url(../Practise/Assets/arc.svg);
+    background-repeat: none;
+    background-size: 100%;
+    padding-bottom: 24px;
 
 }
 
@@ -199,7 +196,7 @@ li{
     display: flex;
     align-items: center;
     text-decoration: none;
-    margin-bottom: 64px;
+    
     
 }
 
@@ -210,7 +207,7 @@ h3{
 }
 
 .snake, .heart, .arrow, .sand_watches{
-    border: solid 1px palevioletred;
+    margin-bottom: 64px;
 }
 
 .snake, .heart, .sand_watches{
@@ -219,6 +216,7 @@ h3{
 
 .middle_btn{
     text-align: center;
+    
 }
 
 
