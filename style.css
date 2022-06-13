@@ -69,9 +69,9 @@ ul{
 
 
 .logo{
-    margin-right: 8px;
     display: flex;
     align-items: center;
+    
     
 }
 
@@ -457,6 +457,9 @@ li{
     color: #02897A;
 }
 
+.free button, .standard button, .premium button{
+    margin-bottom: 34px;
+}
 
 .mail_us{
     display: flex;
@@ -464,6 +467,7 @@ li{
     align-items: center;
     border: 1px solid #DDDDDD;
     border-radius: 20px;
+    margin-bottom: 154px;
 }
 
 .send_a_message{
@@ -494,4 +498,66 @@ li{
     padding: 18px 54px;
     background-color: #02897A;
     color: #FFFFFF;
+    margin-bottom: 54px;
+    
+}
+
+
+.footer{
+    color: #22343D;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.resource, .legal_stuff{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column
+    
+}
+
+.resource_link, .legal_stuff_link{
+    text-decoration: none;
+
+}
+
+.resource_link:hover, .legal_stuff_link:hover{
+    color: yellow;
+    ;
+}
+
+
+
+.last_slogan{
+    display: flex;
+    flex-direction: column;
+    max-width: 324px;
+    
+}
+
+.legal_stuff a, .resource a{
+    padding: 16px;
+}
+
+.footer_bun{
+    margin-top: 24px;
+}
+
+.footer_sign_bun{
+    all: unset;
+    border-radius: 4px;
+    background-color: #02897A;
+    color: #FFFFFF;
+    padding: 10px 24px;
 }
