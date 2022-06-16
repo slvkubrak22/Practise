@@ -1,25 +1,5 @@
-
-
-body{
-    font-family: 'Poppins', sans-serif;
-    color: #22343D;
-
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-
-}
-
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .flex {
     display: flex;
-   
 }
 
 .align_center{
@@ -27,7 +7,7 @@ body{
     
 }
 
-.justify-content center{
+.justify-content_center{
     justify-content: center;
 
 }
@@ -37,42 +17,61 @@ body{
 
 }
 
-ul{
-    all: unset;
+
+/* Тут у нас будет body header*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #22343D;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+   
 .product{
     color: #173A56;
     font-size: 30px;
     padding-left: 16px;
-    
-    
 }
 
 .nav{
     all: unset;
     font-size: 16px;
-    
-    
 }
+
+.order{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+ul{
+    all: unset;
+}
+
 
 .nav_link{
     color: #22343D;
     text-decoration: none;
     margin: 0 30px;
-
 }
+
 
 .nav_link:hover{
     color:yellow;
-    
-}
-
-
-.logo{
-    display: flex;
-    align-items: center;
-    
-    
 }
 
 
@@ -80,19 +79,18 @@ li{
     list-style-type: none;
 }
 
+
+/* Buttons*/
 .btn{
     all: unset;
     border-radius: 4px;
     padding: 10px 24px;
 }
 
-
 .primary{
     border: 1px solid #BCD0E5;
     background-color:#FFFFFF;
     color:#173A56;
-    
-
 }
 
 .secondary{
@@ -102,36 +100,33 @@ li{
 
 
 
-.tb1{
-    color: #22343D;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 16px;
-   
-}
-
-.tb2{
-    
-    font-size: 18px;
-    font-weight: 400;
-    
-    
-}
 
 .left_col{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 
+.textblock1{
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
 
+.textblock2{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.call_to_action_left_col{
+    align-items: center;
+    margin-top: 44px;
 }
 
 .right_col{
     width: 50%;
-    
-    
-    
 }
 
 .right_col img{
@@ -143,27 +138,7 @@ li{
 }
 
 
-
-.start{
-    background-color: #02897A;
-    
-    margin-top: 44px;
-    
-}
-
-.start span{
-    font-size: 16px;
-    color: #FFFFFF;
-    
-}
-
-.link_left_col{
-    align-items: center;
-    margin-top: 44px;
-    
-}
-
-.link_left_col button{
+.call_to_action_left_col button{
     margin-right: 28px;
 }
 
@@ -186,55 +161,46 @@ li{
     font-size: 34px;
     color: #22343D;
     margin-bottom: 64px;
-    
 }
+
 
 .benefits{
     background-image: url(../Practise/Assets/arc_down.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 24px;
+    padding-bottom: 90px;
     margin-bottom: 150px;
-
+    background-position: center bottom;
 }
 
-.order{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    
-    
+.benefits ul{
+    margin-bottom: 64px;
 }
-
 .order h3{
     font-weight: 600;
     font-size: 24px;
     color:#22343D;
 }
 
-.snake, .heart, .arrow, .sand_watches{
-    margin-bottom: 64px;
-}
 
-.snake, .heart, .sand_watches{
-    margin-left: 44px;
-}
 
 .middle_btn{
     text-align: center;
+}
+
+.benefits .order li{
+    margin: 0 20px;
+}
+
+.benefits img{
     
 }
 
 
 
-
-.txt_blog{
+.txt_block{
     width: 40%;
-    
 }
-
-
-
 
 .manage_image img,
 .officepc_image img,
@@ -243,10 +209,6 @@ li{
     margin-bottom: 150px;
 
 }
-
-
-
-
 
 .checkbox{
     display: flex;
@@ -268,11 +230,12 @@ li{
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 154px;
+    padding-top: 54px;
    
 }
 
 .q_e_p{
-    padding-top: 54px;
+    
     text-align: center;
     font-weight: 700;
     font-size: 34px;
@@ -286,6 +249,7 @@ li{
     font-weight: 500;
     font-size: 16px;
     color: #22343D;
+    margin-bottom: 32px;
 }
 
 .avatars{
@@ -295,40 +259,67 @@ li{
     
 }
 
-.right{
-    
+.left{
     width: 50%;
-    
-
 }
 
-.pitch{
-    
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 24px;
-    
+
+.bubble_left_bottom_circle{
+    display:flex;  
+    background-color: #FFFFFF;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    margin:20px;
+    position:relative;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+  }
+
+
+  .bubble_left_bottom_circle:before,
+  .bubble_left_bottom_circle:after{
+    content:"";
+    background-color:#FFFFFF;
+    border-radius:50%;
+    position:absolute;
+  }
+
+  .bubble_left_bottom_circle:before{
+    width:17px;
+    height:17px;
+    bottom: -10px;
+    left:28px;
 }
 
-/*.cloud_left{
-    background-image: url(../Practise/Assets/cloud_left.svg);
-    background-size: 100%;
-    background-repeat: none;
-    display: flex;
-}*/
 
-.pitch p{
-    background-image: url(../Practise/Assets/cloud_left.svg);
-    background-size: 100%;
-    all:unset;
-    padding: 10px;
-    background-color: aqua;
-    margin: 16px;
+.bubble_right_bottom_circle{
+    display:flex;  
+    background-color: #FFFFFF;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    margin:20px;
+    position:relative;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
 }
 
-.design{
-    
+.bubble_right_bottom_circle:before,
+.bubble_right_bottom_circle:after{
+    content:"";
+    background-color:#FFFFFF;
+    border-radius:50%;
+    position:absolute;
+  }
+
+.bubble_right_bottom_circle:before{
+    width:17px;
+    height:17px;
+    bottom: -10px;
+    right:28px;
+}
+
+
+.avatar2{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -341,37 +332,13 @@ li{
     margin: 16px;
 }
 
-.prototype{
-    
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.avatar3, .avatar1{
     margin-bottom: 24px;
 }
 
-.prototype p{
-    all:unset;
-    padding: 10px;
-    background-color: aqua;
-    margin: 16px;
-}
 
-.marketing{
-    
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.marketing p{
-    all:unset;
-    padding: 10px;
-    background-color: aqua;
-    margin: 16px;
-}
-
-.left{
-    
+.right{
     width: 50%;
 }
 
@@ -388,23 +355,24 @@ li{
 .price{
     margin-bottom: 150px;
 }
+
 .tables{
-    
     display: flex;
     justify-content: space-between;
 }
 
-.free, .standard, .premium {
-   
+
+.card {
     text-align: center;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 8px
-    
+    border-radius: 8px;
+    padding: 0 74px 0 74px;
+    margin: 0 20px 0 2px;
+    width: 100%;
 }
 
 .price h3, h4{
     text-align: center;
-    
 }
 
 .price h3{
@@ -420,77 +388,86 @@ li{
 .large{
     display: flex;
     justify-content: center;
-    border: solid 2px purple;
     align-items: center;
-    padding: 0 74px 0 74px ;
 }
 
 .large_symbol{
     font-size: 76px;
     font-weight: 700;
     color: #02897A;
-    
 }
 
-.dol_symb{
-    
-    border: solid 2px pink;
-    
-}
 
-.dol_symb p{
+
+.additional_symb p{
     margin: 0;
+    left: 0;
+   
+
 }
  
-.standard{
+.dol{
+    font-weight: 700;
+    font-size: 24px;
+    color:#02897A;
+}
+
+.dol_middle{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.middle{
     background-color: #02897A;
     color: #FFFFFF;
-
 }
 
-.standard .large_symbol{
+.middle .large_symbol{
     color: #FFFFFF;
 }
 
-.standard button{
-    
+.middle button{
     color: #02897A;
 }
 
-.free button, .standard button, .premium button{
+.card button{
     margin-bottom: 34px;
 }
 
-.mail_us{
+
+.mail_us form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+   
+
+}
+
+.mail_us{
     border: 1px solid #DDDDDD;
     border-radius: 20px;
     margin-bottom: 154px;
+    padding: 54px;
 }
 
 .send_a_message{
+    text-align: center;
     font-weight: 700;
     font-size: 24px;
-    margin: 44px 0 44px 0;
+    margin-bottom:24px;
+    
 }
 
 .text_input {
-    display: block;
-    width: 80%;
-    font-family: inherit;
+    all: unset;
+    border: 1px solid #E8E8E8;
     border-radius: 39px;
-    padding: 24px;
+    padding: 20px;
     margin-bottom: 44px;
     background-color: #F5F5F5;
 }
 
-.text_box{
-    display: block;
-    width: 80%;
-    font-family: inherit; 
-}
+
+
 
 .send{
     all: unset;
@@ -499,7 +476,7 @@ li{
     background-color: #02897A;
     color: #FFFFFF;
     margin-bottom: 54px;
-    
+    left: start;
 }
 
 
@@ -507,7 +484,6 @@ li{
     color: #22343D;
     display: flex;
     justify-content: space-between;
-
 }
 
 
@@ -516,25 +492,20 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .resource, .legal_stuff{
-    
     text-align: center;
     display: flex;
     flex-direction: column
-    
 }
 
 .resource_link, .legal_stuff_link{
     text-decoration: none;
-
 }
 
 .resource_link:hover, .legal_stuff_link:hover{
     color: yellow;
-    ;
 }
 
 
@@ -543,7 +514,6 @@ li{
     display: flex;
     flex-direction: column;
     max-width: 324px;
-    
 }
 
 .legal_stuff a, .resource a{
@@ -560,4 +530,8 @@ li{
     background-color: #02897A;
     color: #FFFFFF;
     padding: 10px 24px;
+}
+
+.footer_logo, .resource, .legal_stuff, .last_slogan{
+    margin: 0 20px;
 }
