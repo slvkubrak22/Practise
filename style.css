@@ -23,11 +23,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: #22343D;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .nav-container{
@@ -54,7 +57,6 @@ body{
 
 .order{
     display: flex;
-    align-items: center;
     text-decoration: none;
 }
 
@@ -122,6 +124,7 @@ li{
 
 .call_to_action_left_col{
     align-items: center;
+    display: flex;
     margin-top: 44px;
 }
 
@@ -176,6 +179,33 @@ li{
 .benefits ul{
     margin-bottom: 64px;
 }
+
+.icon{
+    background-color: #02897A;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.green{
+    background-color: #02897A;
+}
+
+.benefits .blue{
+    background-color: #4D8DFF;
+}
+
+.purple{
+    background-color: #740A76;
+}
+
+.orange{
+    background-color: #F03E3D;
+}
 .order h3{
     font-weight: 600;
     font-size: 24px;
@@ -192,14 +222,10 @@ li{
     margin: 0 20px;
 }
 
-.benefits img{
-    
-}
-
-
 
 .txt_block{
     width: 40%;
+    padding: 10px;
 }
 
 .manage_image img,
@@ -219,7 +245,7 @@ li{
     margin-top: 34px;
 }
 
-.yellow img, .red img, .blue img{
+.customer_support .blue img, .red img, .yellow img{
     margin-right: 34px;
 }
 
@@ -352,6 +378,10 @@ li{
     background-color: yellow;
 }
 
+
+
+
+
 .price{
     margin-bottom: 150px;
 }
@@ -367,7 +397,7 @@ li{
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     padding: 0 74px 0 74px;
-    margin: 0 20px 0 2px;
+    margin: 0 5px 0 5px;
     width: 100%;
 }
 
@@ -397,13 +427,13 @@ li{
     color: #02897A;
 }
 
-
+.card .primary{
+    border: none;
+}
 
 .additional_symb p{
     margin: 0;
     left: 0;
-   
-
 }
  
 .dol{
@@ -412,34 +442,33 @@ li{
     color:#02897A;
 }
 
-.dol_middle{
+.dol_green{
     font-weight: 700;
     font-size: 24px;
 }
 
-.middle{
-    background-color: #02897A;
+.green{
     color: #FFFFFF;
 }
 
-.middle .large_symbol{
+
+
+.green .large_symbol{
     color: #FFFFFF;
 }
 
-.middle button{
-    color: #02897A;
-}
 
 .card button{
     margin-bottom: 34px;
 }
 
 
+
+
+
 .mail_us form{
     display: flex;
     flex-direction: column;
-   
-
 }
 
 .mail_us{
@@ -484,9 +513,13 @@ li{
     color: #22343D;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
-
+.subtitle{
+    font-size: 20px;
+    font-weight: 500;
+}
 
 .icons{
     display: flex;
@@ -494,17 +527,17 @@ li{
     align-items: center;
 }
 
-.resource, .legal_stuff{
-    text-align: center;
+.footer_info{
+    
     display: flex;
     flex-direction: column
 }
 
-.resource_link, .legal_stuff_link{
+.footer_info_link{
     text-decoration: none;
 }
 
-.resource_link:hover, .legal_stuff_link:hover{
+.footer_info_link:hover{
     color: yellow;
 }
 
@@ -516,22 +549,24 @@ li{
     max-width: 324px;
 }
 
-.legal_stuff a, .resource a{
-    padding: 16px;
+.last_slogan .subtitle{
+    margin-bottom: 34px;
 }
 
-.footer_bun{
+
+
+.footer_info a{
+    padding: 16px 0;
+}
+
+.footer_btn{
     margin-top: 24px;
 }
 
-.footer_sign_bun{
-    all: unset;
-    border-radius: 4px;
-    background-color: #02897A;
-    color: #FFFFFF;
-    padding: 10px 24px;
+.last_slogan input{
+    margin-bottom: 0;
 }
 
-.footer_logo, .resource, .legal_stuff, .last_slogan{
+.footer_logo, .footer_info, .last_slogan{
     margin: 0 20px;
 }
