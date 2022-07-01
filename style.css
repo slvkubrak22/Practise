@@ -20,6 +20,11 @@
 
 /* Тут у нас будет body header*/
 
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     color: #22343D;
@@ -30,7 +35,8 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
@@ -195,6 +201,10 @@ li{
     margin-bottom: 64px;
 }
 
+.benefits .green{
+    margin: 0;
+}
+
 .icon{
     background-color: #02897A;
     align-items: center;
@@ -208,6 +218,8 @@ li{
 
 .green{
     background-color: #02897A;
+    color: #FFFFFF;
+    margin: 0 10px;
 }
 
 .benefits .blue{
@@ -233,14 +245,20 @@ li{
     text-align: center;
 }
 
-.benefits .order li{
-    margin: 0 20px;
+.benefits  li{
+    margin: 0 10px;
 }
 
 
 .txt_block{
     width: 40%;
-    padding: 10px;
+    
+}
+
+.manage,
+.customer_support,
+.collaborative{
+    margin-bottom: 150px;
 }
 
 .manage_image img,
@@ -248,7 +266,20 @@ li{
 .collaborative_image img {
     width: 100%;
     margin-bottom: 150px;
+}
 
+.manage h3,
+.customer_support h3,
+.collaborative h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.manage h2,
+.customer_support h2,
+.collaborative h2{
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .checkbox{
@@ -275,14 +306,25 @@ li{
    
 }
 
+.circle{
+    width: 98px;
+    height: 98px;
+    border: 3px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle img{
+    width: 100%;
+    height: 100%;
+}
+
 .q_e_p{
-    
     text-align: center;
     font-weight: 700;
     font-size: 34px;
     color: #22343D;
     margin-bottom: 16px;
-   
 }
 
 .helping_offer{
@@ -360,12 +402,6 @@ li{
 }
 
 
-.avatar2{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
- 
 .design p{
     all:unset;
     padding: 10px;
@@ -373,7 +409,7 @@ li{
     margin: 16px;
 }
 
-.avatar3, .avatar1{
+.avatar-top{
     margin-bottom: 24px;
 }
 
@@ -396,6 +432,7 @@ li{
 
 .sliders .card{
     padding: 0;
+    overflow: hidden;
 }
 
 .card_middle{
@@ -409,7 +446,7 @@ li{
 .top img{
     width: 100%;
     height: 100%;
-    border-radius: 8px 8px 0 0;
+    
 }
 
 .card .subtitle{
@@ -490,11 +527,6 @@ h3{
     font-size: 24px;
 }
 
-.green{
-    color: #FFFFFF;
-    margin: 0 10px;
-}
-
 
 
 .green .large_symbol{
@@ -544,13 +576,10 @@ h3{
 
 
 .send{
-    all: unset;
     border-radius: 35px;
     padding: 18px 54px;
     background-color: #02897A;
     color: #FFFFFF;
-    margin-bottom: 54px;
-   
 }
 
 
@@ -584,6 +613,10 @@ h3{
 
 .footer_info_link:hover{
     color: yellow;
+}
+
+footer .logo{
+    margin-bottom: 10px;
 }
 
 
@@ -627,20 +660,22 @@ h3{
 
 
 @media  (max-width: 980px) {
-  
-    
-
     .header{
         box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .header .nav-container{
         display: block;
     }
 
-    .column .container{
+    .column{
         flex-direction: column;
-        padding: 17px;
+        /*padding: 17px;*/
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
@@ -650,12 +685,26 @@ h3{
         justify-content: center;
     }
 
+    .left_col{
+        width: 100%;
+        text-align: center;
+    }
+
+    .textblock1{
+        font-size: 32px;
+
+    }
+
     .right_col{
         width: 100%;
     }
 
     .header .flex{
        display: none;
+    }
+
+    .benefits{
+        margin-bottom: 0;
     }
 
     .benefits .container{
@@ -676,9 +725,15 @@ h3{
         margin-bottom: 34px;
     }
 
+    .manage_image,
+    .officepc_image,
+    .collaborative_image {
+        width: 100%;
+    }
+
     .manage .container,
     .collaborative .container {
-        display: inline-flex;
+        
         flex-direction: column-reverse;
     }
 
@@ -705,12 +760,17 @@ h3{
         align-items: center;
     }
 
+    .left{
+        width: 100%;
+    }
+
     .right{
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
     }
 
-    .avatar1, .avatar2, .avatar3, .avatar4 {
+    .avatar-top, .avatar-bottom {
         margin-bottom: 32px;
     }
 
@@ -751,6 +811,12 @@ h3{
     .last_slogan .subtitle{
         text-align: center;
     }
+
+    .last_slogan input{
+        width: 100%;
+    }
+
+  
 
   
   
